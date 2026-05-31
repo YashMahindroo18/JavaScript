@@ -10,3 +10,12 @@ const profile={
     organisation : "Apna college",
     promo:"to educate ",
 }
+let mode ="dark";
+let color;
+if(mode==="dark"){
+    color="dark";
+}
+else{
+    color="blue";
+}
+console.log(color);
