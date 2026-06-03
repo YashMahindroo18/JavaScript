@@ -65,3 +65,8 @@ companies.splice(1,1,"OLA");
 console.log(companies);
 companies.push("Amazon");
 console.log(companies);
+let k= companies;
+for(let u=0;u<k.length;u++){
+    k[u]=k[u].toUpperCase();
+}
+console.log("After everything:\n"+ k);
