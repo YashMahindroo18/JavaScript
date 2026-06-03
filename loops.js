@@ -70,3 +70,10 @@ for(let u=0;u<k.length;u++){
     k[u]=k[u].toUpperCase();
 }
 console.log("After everything:\n"+ k);
+
+
+// for each loop for arrays
+let arr=[1,2,4,5];
+arr.forEach(function print(val){
+    console.log(val);
+});
